@@ -11,9 +11,6 @@
 </head>
 
 <body>
-    @if (session()->has('success'))
-        <livewire:alert />
-    @endif
     <div class='flex flex-col gap-5 bg-gray-200 p-8'>
         <livewire:counter />
         @foreach ($posts as $post)
